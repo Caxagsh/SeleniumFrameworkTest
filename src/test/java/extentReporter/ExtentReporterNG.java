@@ -8,7 +8,6 @@ import java.io.File;
 public class ExtentReporterNG {
     public static ExtentReports getReportObject(){
 
-        // Указываем путь к файлу отчета
         String path = System.getProperty("user.dir") + "//report//index.html";
 
         // Создаем объект File для проверки существования директории
