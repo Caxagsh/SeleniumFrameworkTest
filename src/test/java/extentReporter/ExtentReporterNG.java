@@ -10,7 +10,7 @@ public class ExtentReporterNG {
 
         String path = System.getProperty("user.dir") + "//report//index.html";
 
-        // Создаем объект File для проверки существования директории1
+        // Создаем объект File для проверки существования директории11
         File reportFolder = new File(System.getProperty("user.dir") + "//report");
 
         // Проверяем, существует ли папка report, если нет, создаем её
